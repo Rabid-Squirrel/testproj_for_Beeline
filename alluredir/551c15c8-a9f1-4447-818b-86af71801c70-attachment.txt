@@ -1,0 +1,11 @@
+00:00.001 dbg requests_log: Requests logging start.
+send: b'GET /headers HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Tue, 04 Aug 2020 08:51:00 GMT
+header: Content-Type: application/json
+header: Content-Length: 225
+header: Connection: keep-alive
+header: Server: gunicorn/19.9.0
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+00:01.585 dbg requests_log: Requests logging stop.

@@ -1,0 +1,11 @@
+00:00.003 dbg requests_log: Requests logging start.
+send: b'POST /status/402 HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 0\r\n\r\n'
+reply: 'HTTP/1.1 402 PAYMENT REQUIRED\r\n'
+header: Date: Tue, 04 Aug 2020 08:52:55 GMT
+header: Content-Length: 17
+header: Connection: keep-alive
+header: Server: gunicorn/19.9.0
+header: x-more-info: http://vimeo.com/22053820
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+00:02.129 dbg requests_log: Requests logging stop.

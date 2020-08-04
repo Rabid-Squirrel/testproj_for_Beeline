@@ -1,0 +1,11 @@
+00:00.000 dbg requests_log: Requests logging start.
+send: b'POST /status/209 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 0\r\n\r\n'
+reply: 'HTTP/1.1 209 UNKNOWN\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 10:06:08 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+header: Content-Length: 0
+00:00.006 dbg requests_log: Requests logging stop.

@@ -1,0 +1,4 @@
+[35mDEBUG   [0m requests_log:conftest.py:70 Requests logging start.
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:943 Starting new HTTPS connection (1): httpbin.org:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 https://httpbin.org:443 "GET /redirect/2 HTTP/1.1" 404 0
+[35mDEBUG   [0m requests_log:conftest.py:73 Requests logging stop.

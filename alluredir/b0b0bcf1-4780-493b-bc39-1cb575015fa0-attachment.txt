@@ -1,0 +1,11 @@
+00:00.000 dbg requests_log: Requests logging start.
+send: b'PATCH /status/102 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 0\r\n\r\n'
+reply: 'HTTP/1.1 102 PROCESSING\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 08:38:00 GMT
+header: Connection: keep-alive
+header: Transfer-Encoding: chunked
+header: Content-Type: text/html; charset=utf-8
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+00:00.008 dbg requests_log: Requests logging stop.

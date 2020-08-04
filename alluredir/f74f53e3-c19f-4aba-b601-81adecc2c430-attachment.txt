@@ -1,0 +1,31 @@
+00:00.000 dbg requests_log: Requests logging start.
+send: b'GET /redirect/2 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 08:37:59 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 247
+header: Location: /relative-redirect/1
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/1 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 08:37:59 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /get
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /get HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 08:37:59 GMT
+header: Connection: keep-alive
+header: Content-Type: application/json
+header: Content-Length: 260
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+00:00.016 dbg requests_log: Requests logging stop.

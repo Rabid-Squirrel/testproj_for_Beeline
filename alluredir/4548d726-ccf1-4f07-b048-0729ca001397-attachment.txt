@@ -1,0 +1,18 @@
+00:00.001 dbg requests_log: Requests logging start.
+send: b'GET /status/302 HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Date: Tue, 04 Aug 2020 08:52:17 GMT
+header: Content-Length: 0
+header: Connection: keep-alive
+header: Server: gunicorn/19.9.0
+header: location: /redirect/1
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /redirect/1 HTTP/1.1\r\nHost: httpbin.org\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 404 Not Found\r\n'
+header: Server: awselb/2.0
+header: Date: Tue, 04 Aug 2020 08:52:19 GMT
+header: Content-Type: text/plain; charset=utf-8
+header: Content-Length: 0
+header: Connection: keep-alive
+00:06.375 dbg requests_log: Requests logging stop.

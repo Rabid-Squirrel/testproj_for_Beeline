@@ -1,0 +1,2 @@
+[35mDEBUG   [0m requests_log:conftest.py:70 Requests logging start.
+[35mDEBUG   [0m requests_log:conftest.py:73 Requests logging stop.

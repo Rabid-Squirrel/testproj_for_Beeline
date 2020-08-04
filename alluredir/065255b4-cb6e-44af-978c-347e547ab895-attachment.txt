@@ -1,0 +1,211 @@
+00:00.000 dbg requests_log: Requests logging start.
+send: b'GET /redirect/20 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 249
+header: Location: /relative-redirect/19
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/19 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/18
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/18 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/17
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/17 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/16
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/16 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/15
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/15 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/14
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/14 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/13
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/13 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/12
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/12 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/11
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/11 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/10
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/10 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/9
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/9 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/8
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/8 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/7
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/7 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/6
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/6 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/5
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/5 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/4
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/4 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/3
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/3 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/2
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/2 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /relative-redirect/1
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /relative-redirect/1 HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 302 FOUND\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: text/html; charset=utf-8
+header: Content-Length: 0
+header: Location: /get
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+send: b'GET /get HTTP/1.1\r\nHost: 0.0.0.0\r\nUser-Agent: python-requests/2.24.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Server: gunicorn/19.9.0
+header: Date: Tue, 04 Aug 2020 09:46:54 GMT
+header: Connection: keep-alive
+header: Content-Type: application/json
+header: Content-Length: 260
+header: Access-Control-Allow-Origin: *
+header: Access-Control-Allow-Credentials: true
+00:00.072 dbg requests_log: Requests logging stop.
